@@ -1,9 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://daa6w8mmp06ei"]
+[gd_scene load_steps=4 format=3 uid="uid://daa6w8mmp06ei"]
 
 [ext_resource type="Script" path="res://Scripts/level.gd" id="1_wtvas"]
 [ext_resource type="PackedScene" uid="uid://bus43qsq7hrgc" path="res://Scenes/boundaries.tscn" id="2_0bxp1"]
+[ext_resource type="PackedScene" uid="uid://be0yludrxx6ed" path="res://Scenes/ball.tscn" id="3_2uncv"]
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_wtvas")
 
 [node name="Boundaries" parent="." instance=ExtResource("2_0bxp1")]
+
+[node name="Ball" parent="." instance=ExtResource("3_2uncv")]
+position = Vector2(392, 225)

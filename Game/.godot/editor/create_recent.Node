@@ -1,6 +1,7 @@
 CollisionShape2D
-Area2D
 ColorRect
+RigidBody2D
+Area2D
 StaticBody2D
 Button
 RichTextLabel
