@@ -37,5 +37,5 @@ shape = SubResource("RectangleShape2D_legqq")
 [node name="RightBound" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RightBound"]
-position = Vector2(872, 271)
+position = Vector2(864, 271)
 shape = SubResource("RectangleShape2D_legqq")
