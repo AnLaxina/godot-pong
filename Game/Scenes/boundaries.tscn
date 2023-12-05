@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://bus43qsq7hrgc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ivj40"]
+size = Vector2(872, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_legqq"]
+size = Vector2(20, 514)
+
+[node name="Boundaries" type="StaticBody2D"]
+
+[node name="WallUpper" type="ColorRect" parent="."]
+offset_left = -8.0
+offset_right = 864.0
+offset_bottom = 16.0
+color = Color(0.729412, 0.729412, 0.729412, 1)
+
+[node name="WallLower" type="ColorRect" parent="."]
+offset_top = 512.0
+offset_right = 872.0
+offset_bottom = 528.0
+color = Color(0.729412, 0.729412, 0.729412, 1)
+
+[node name="CollisionShapeUpper" type="CollisionShape2D" parent="."]
+position = Vector2(428, 8)
+shape = SubResource("RectangleShape2D_ivj40")
+
+[node name="CollisionShapeLower" type="CollisionShape2D" parent="."]
+position = Vector2(436, 520)
+shape = SubResource("RectangleShape2D_ivj40")
+
+[node name="LeftBound" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftBound"]
+position = Vector2(-8, 271)
+shape = SubResource("RectangleShape2D_legqq")
+
+[node name="RightBound" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightBound"]
+position = Vector2(872, 271)
+shape = SubResource("RectangleShape2D_legqq")

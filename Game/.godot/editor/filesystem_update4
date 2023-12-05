@@ -1,3 +1,4 @@
 res://Scenes/main_menu.tscn
 res://Scenes/level.tscn
 res://Scripts/main_menu.gd
+res://Scenes/boundaries.tscn

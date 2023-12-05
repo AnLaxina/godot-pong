@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://daa6w8mmp06ei"]
+[gd_scene load_steps=3 format=3 uid="uid://daa6w8mmp06ei"]
 
 [ext_resource type="Script" path="res://Scripts/level.gd" id="1_wtvas"]
+[ext_resource type="PackedScene" uid="uid://bus43qsq7hrgc" path="res://Scenes/boundaries.tscn" id="2_0bxp1"]
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_wtvas")
+
+[node name="Boundaries" parent="." instance=ExtResource("2_0bxp1")]
