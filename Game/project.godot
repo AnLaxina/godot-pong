@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="Godot Pong"
+run/main_scene="res://Scenes/level.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=858
+window/size/viewport_height=525
+window/size/resizable=false
 
 [rendering]
 
