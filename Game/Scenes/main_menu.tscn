@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://o8xudsrf0u6u"]
+
+[ext_resource type="FontFile" uid="uid://cgp50vdbt3igx" path="res://Assets/Fonts/Retro Gaming.ttf" id="1_gmr50"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 856.0
+offset_bottom = 528.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 104.0
+offset_right = 430.0
+offset_bottom = 132.0
+theme_override_fonts/normal_font = ExtResource("1_gmr50")
+text = "Hello!"
