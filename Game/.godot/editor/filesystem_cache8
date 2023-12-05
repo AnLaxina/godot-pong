@@ -1,11 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701815229
+::res://::1701818935
 icon.svg::CompressedTexture2D::2624276318140543875::1701815173::1701815231::1::::<><>::
 ::res://Assets/::1701815173
 ::res://Assets/Fonts/::1701815173
 Retro Gaming.ttf::FontFile::5226807357852611443::1701815173::1701815173::1::::<><>::
-::res://Scenes/::1701815173
-level.tscn::PackedScene::7161185317695467716::1701815173::0::1::::<><>::res://Scripts/level.gd
-main_menu.tscn::PackedScene::1052200669684773178::1701815173::0::1::::<><>::uid://cgp50vdbt3igx::::res://Assets/Fonts/Retro Gaming.ttf
-::res://Scripts/::1701815173
+::res://Scenes/::1701818767
+ball.tscn::PackedScene::2720263409561568015::1701818752::0::1::::<><>::res://Scripts/ball.gd
+boundaries.tscn::PackedScene::3829168019996495562::1701817245::0::1::::<><>::
+level.tscn::PackedScene::7161185317695467716::1701818752::0::1::::<><>::res://Scripts/level.gd<>uid://bus43qsq7hrgc::::res://Scenes/boundaries.tscn<>uid://be0yludrxx6ed::::res://Scenes/ball.tscn<>uid://cr1ikahfsalww::::res://Scenes/player_1.tscn
+main_menu.tscn::PackedScene::1052200669684773178::1701816319::0::1::::<><>::uid://cgp50vdbt3igx::::res://Assets/Fonts/Retro Gaming.ttf<>res://Scripts/main_menu.gd
+player_1.tscn::PackedScene::6020229135784363054::1701818767::0::1::::<><>::res://Scripts/player_1.gd
+::res://Scripts/::1701818751
+ball.gd::GDScript::-1::1701818007::0::1::::<>RigidBody2D<>::
 level.gd::GDScript::-1::1701815173::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1701816311::0::1::::<>Control<>::
+player_1.gd::GDScript::-1::1701818751::0::1::::<>CharacterBody2D<>::
