@@ -5,10 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h8cvu"]
 size = Vector2(53.3333, 50)
 
-[node name="Ball" type="RigidBody2D"]
-gravity_scale = 0.0
-max_contacts_reported = 1
-contact_monitor = true
+[node name="Ball" type="CharacterBody2D"]
 script = ExtResource("1_thbe0")
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -21,5 +18,3 @@ offset_bottom = 10.0
 position = Vector2(-2.83122e-07, 0.5)
 scale = Vector2(0.4, 0.4)
 shape = SubResource("RectangleShape2D_h8cvu")
-
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]

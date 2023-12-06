@@ -1,20 +1,13 @@
-extends RigidBody2D
+extends CharacterBody2D
 
 @export var speed : int = 400
 
 func _ready():
-	
-	# Set initial direction of ball
-	linear_velocity = Vector2(speed, 0).rotated(randi_range(0, 2 * PI))
+	velocity = Vector2(200,200)
 		
-
-# For this signal to work be sure to enable contact_monitor
-func _on_body_entered(body):
-	# If the ball hits either the upper or lower wall, do something
-	if body.is_class("StaticBody2D"):
-		print("HI it's a StaticBody2D!")
-		# Reflect the y-component of the velocity
-		linear_velocity.y *= -1
-		# Adjust the angle of the velocity vector within a certain range
-		var angle = linear_velocity.angle() + randf_range(-PI/8, PI/8)
-		linear_velocity = Vector2(speed, 0).rotated(angle)
+func _physics_process(delta):
+	# Returns the body that is hitting the ball
+	var collision_info = move_and_collide(velocity * delta)
+	# If something is hitting the ball bounce it back
+	if collision_info:
+		velocity = velocity.bounce(collision_info.get_normal())
