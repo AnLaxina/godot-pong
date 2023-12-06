@@ -1,4 +1,5 @@
-res://Scenes/player_1.tscn
-res://Scripts/player_1.gd
+res://Scripts/player_2.gd
+res://Scenes/player_2.tscn
 res://Scenes/level.tscn
 res://Scenes/ball.tscn
+res://Scenes/player_1.tscn

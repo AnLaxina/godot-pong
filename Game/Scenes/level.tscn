@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://daa6w8mmp06ei"]
+[gd_scene load_steps=6 format=3 uid="uid://daa6w8mmp06ei"]
 
 [ext_resource type="Script" path="res://Scripts/level.gd" id="1_wtvas"]
 [ext_resource type="PackedScene" uid="uid://bus43qsq7hrgc" path="res://Scenes/boundaries.tscn" id="2_0bxp1"]
 [ext_resource type="PackedScene" uid="uid://be0yludrxx6ed" path="res://Scenes/ball.tscn" id="3_2uncv"]
 [ext_resource type="PackedScene" uid="uid://cr1ikahfsalww" path="res://Scenes/player_1.tscn" id="4_dxng5"]
+[ext_resource type="PackedScene" uid="uid://o8o6kfb4eiq5" path="res://Scenes/player_2.tscn" id="5_0p3g2"]
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_wtvas")
@@ -15,3 +16,7 @@ position = Vector2(392, 225)
 
 [node name="Player1" parent="." instance=ExtResource("4_dxng5")]
 position = Vector2(75, 264)
+
+[node name="Player2" parent="." instance=ExtResource("5_0p3g2")]
+position = Vector2(776, 264)
+paddle_speed = 400
