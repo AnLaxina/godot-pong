@@ -1,5 +1,5 @@
-CollisionShape2D
 ColorRect
+CollisionShape2D
 CharacterBody2D
 RigidBody2D
 Area2D

@@ -3,3 +3,5 @@ res://Scenes/player_2.tscn
 res://Scenes/level.tscn
 res://Scenes/ball.tscn
 res://Scenes/player_1.tscn
+res://Scenes/line_break.tscn
+res://Scenes/boundaries.tscn
