@@ -24,3 +24,6 @@ position = Vector2(75, 264)
 [node name="Player2" parent="." instance=ExtResource("5_0p3g2")]
 position = Vector2(776, 264)
 paddle_speed = 400
+
+[connection signal="left_bound_entered" from="Boundaries" to="." method="_on_left_bound_entered"]
+[connection signal="right_bound_entered" from="Boundaries" to="." method="_on_right_bound_entered"]

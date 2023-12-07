@@ -7,3 +7,10 @@ func _ready():
 	# The reason why it's coded in is so that the color in the editor isn't black too.
 	RenderingServer.set_default_clear_color("black")
 
+
+func _on_left_bound_entered():
+	print("Ball made it to the left!")
+
+
+func _on_right_bound_entered():
+	print("Ball made it to the right!")

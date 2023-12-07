@@ -1,8 +1,10 @@
-res://Scripts/player_2.gd
-res://Scenes/player_2.tscn
+res://Scenes/boundaries.tscn
+res://Scripts/boundaries.gd
+res://Scripts/level.gd
 res://Scenes/level.tscn
 res://Scenes/ball.tscn
 res://Scenes/player_1.tscn
+res://Scenes/player_2.tscn
 res://Scenes/line_break.tscn
-res://Scenes/boundaries.tscn
-res://Scripts/ball.gd
+res://Scripts/player_1.gd
+res://Scripts/player_2.gd
