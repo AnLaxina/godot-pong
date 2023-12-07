@@ -8,3 +8,4 @@ res://Scenes/player_2.tscn
 res://Scenes/line_break.tscn
 res://Scripts/player_1.gd
 res://Scripts/player_2.gd
+res://Scripts/ball.gd

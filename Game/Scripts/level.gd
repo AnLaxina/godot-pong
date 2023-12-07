@@ -10,7 +10,13 @@ func _ready():
 
 func _on_left_bound_entered():
 	print("Ball made it to the left!")
+	call_deferred("reset_scene")
 
 
 func _on_right_bound_entered():
-	print("Ball made it to the right!")
+	call_deferred("reset_scene")
+	
+	
+
+func reset_scene():
+	get_tree().reload_current_scene()

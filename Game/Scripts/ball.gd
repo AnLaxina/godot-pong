@@ -1,7 +1,12 @@
 extends CharacterBody2D
 
 func _ready():
-	velocity = Vector2(250,250)
+	# Set the initial speed of the ball
+	var speed = 450
+	# Set the initial direction of the ball to a random angle
+	var direction = Vector2(1, 0).rotated(randf_range(0, 2 * PI))
+	# Set the initial velocity of the ball by multiplying the speed and direction
+	velocity = speed * direction
 		
 func _physics_process(delta):
 	# Returns the body that is hitting the ball
