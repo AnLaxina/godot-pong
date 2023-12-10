@@ -1,22 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702166710
+::res://::1702170490
 icon.svg::CompressedTexture2D::2624276318140543875::1701811563::1702150482::1::::<><>::
 ::res://Assets/::1701812928
 ::res://Assets/Fonts/::1701812935
 Retro Gaming.ttf::FontFile::5226807357852611443::1701812935::1701812935::1::::<><>::
-::res://Scenes/::1702153475
-ball.tscn::PackedScene::2720263409561568015::1702153475::0::1::::<><>::res://Scripts/ball.gd
-boundaries.tscn::PackedScene::3829168019996495562::1702153475::0::1::::<><>::res://Scripts/boundaries.gd
-level.tscn::PackedScene::7161185317695467716::1702153475::0::1::::<><>::res://Scripts/level.gd<>uid://bus43qsq7hrgc::::res://Scenes/boundaries.tscn<>uid://be0yludrxx6ed::::res://Scenes/ball.tscn<>uid://cr1ikahfsalww::::res://Scenes/player_1.tscn<>uid://o8o6kfb4eiq5::::res://Scenes/player_2.tscn<>uid://bikiqsarxj1e5::::res://Scenes/line_break.tscn<>uid://cgp50vdbt3igx::::res://Assets/Fonts/Retro Gaming.ttf
-line_break.tscn::PackedScene::2969090465206392422::1702153475::0::1::::<><>::
+::res://Scenes/::1702170469
+ball.tscn::PackedScene::2720263409561568015::1702170332::0::1::::<><>::res://Scripts/ball.gd
+boundaries.tscn::PackedScene::3829168019996495562::1702170333::0::1::::<><>::res://Scripts/boundaries.gd
+level.tscn::PackedScene::7161185317695467716::1702170469::0::1::::<><>::res://Scripts/level.gd<>uid://bus43qsq7hrgc::::res://Scenes/boundaries.tscn<>uid://be0yludrxx6ed::::res://Scenes/ball.tscn<>uid://cr1ikahfsalww::::res://Scenes/player_1.tscn<>uid://o8o6kfb4eiq5::::res://Scenes/player_2.tscn<>uid://bikiqsarxj1e5::::res://Scenes/line_break.tscn<>uid://cgp50vdbt3igx::::res://Assets/Fonts/Retro Gaming.ttf
+line_break.tscn::PackedScene::2969090465206392422::1702170333::0::1::::<><>::
 main_menu.tscn::PackedScene::1052200669684773178::1702150435::0::1::::<><>::uid://cgp50vdbt3igx::::res://Assets/Fonts/Retro Gaming.ttf<>res://Scripts/main_menu.gd
-player_1.tscn::PackedScene::6020229135784363054::1702153475::0::1::::<><>::res://Scripts/player_1.gd
-player_2.tscn::PackedScene::1051674207368087982::1702153475::0::1::::<><>::res://Scripts/player_2.gd
-::res://Scripts/::1702156612
-ball.gd::GDScript::-1::1702151361::0::1::::<>CharacterBody2D<>::
+player_1.tscn::PackedScene::6020229135784363054::1702170333::0::1::::<><>::res://Scripts/player_1.gd
+player_2.tscn::PackedScene::1051674207368087982::1702170333::0::1::::<><>::res://Scripts/player_2.gd
+::res://Scripts/::1702170331
+ball.gd::GDScript::-1::1702169562::0::1::::<>CharacterBody2D<>::
 boundaries.gd::GDScript::-1::1702150435::0::1::::<>StaticBody2D<>::
-level.gd::GDScript::-1::1702152399::0::1::::<>Node2D<>::
+level.gd::GDScript::-1::1702170331::0::1::::<>Node2D<>::
 main_menu.gd::GDScript::-1::1702150435::0::1::::<>Control<>::
-PlayerScore.gd::GDScript::-1::1702156612::0::1::::<>Node<>::
 player_1.gd::GDScript::-1::1702150435::0::1::::<>CharacterBody2D<>::
 player_2.gd::GDScript::-1::1702150435::0::1::::<>CharacterBody2D<>::

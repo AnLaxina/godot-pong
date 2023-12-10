@@ -1,9 +1,6 @@
 res://Scenes/level.tscn
-res://Scripts/PlayerScore.gd
 res://Scenes/ball.tscn
 res://Scenes/player_1.tscn
 res://Scenes/player_2.tscn
 res://Scenes/line_break.tscn
 res://Scenes/boundaries.tscn
-res://Scripts/ball.gd
-res://Scripts/level.gd
