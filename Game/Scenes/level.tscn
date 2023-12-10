@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://daa6w8mmp06ei"]
+[gd_scene load_steps=8 format=3 uid="uid://daa6w8mmp06ei"]
 
 [ext_resource type="Script" path="res://Scripts/level.gd" id="1_wtvas"]
 [ext_resource type="PackedScene" uid="uid://bus43qsq7hrgc" path="res://Scenes/boundaries.tscn" id="2_0bxp1"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cr1ikahfsalww" path="res://Scenes/player_1.tscn" id="4_dxng5"]
 [ext_resource type="PackedScene" uid="uid://o8o6kfb4eiq5" path="res://Scenes/player_2.tscn" id="5_0p3g2"]
 [ext_resource type="PackedScene" uid="uid://bikiqsarxj1e5" path="res://Scenes/line_break.tscn" id="6_60aqt"]
+[ext_resource type="FontFile" uid="uid://cgp50vdbt3igx" path="res://Assets/Fonts/Retro Gaming.ttf" id="7_6nbjt"]
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_wtvas")
@@ -24,6 +25,28 @@ position = Vector2(75, 264)
 [node name="Player2" parent="." instance=ExtResource("5_0p3g2")]
 position = Vector2(776, 264)
 paddle_speed = 400
+
+[node name="ScoreLeft" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 48.0
+offset_right = 392.0
+offset_bottom = 144.0
+theme_override_fonts/font = ExtResource("7_6nbjt")
+theme_override_font_sizes/font_size = 70
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScoreRight" type="Label" parent="."]
+offset_left = 432.0
+offset_top = 48.0
+offset_right = 520.0
+offset_bottom = 144.0
+theme_override_fonts/font = ExtResource("7_6nbjt")
+theme_override_font_sizes/font_size = 70
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="left_bound_entered" from="Boundaries" to="." method="_on_left_bound_entered"]
 [connection signal="right_bound_entered" from="Boundaries" to="." method="_on_right_bound_entered"]

@@ -2,9 +2,9 @@ extends CharacterBody2D
 
 func _ready():
 	# Set the initial speed of the ball
-	var speed = 450
+	var speed = 600
 	# Set the initial direction of the ball to a random angle
-	var direction = Vector2(1, 0).rotated(randf_range(0, 2 * PI))
+	var direction = Vector2.RIGHT.rotated(randf_range(0, 2 * PI))
 	# Set the initial velocity of the ball by multiplying the speed and direction
 	velocity = speed * direction
 		
