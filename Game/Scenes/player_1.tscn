@@ -6,8 +6,9 @@
 size = Vector2(24, 216)
 
 [node name="Player1" type="CharacterBody2D"]
+scale = Vector2(0.7, 0.7)
 script = ExtResource("1_wpsn6")
-paddle_speed = 400
+paddle_speed = 475
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -8.0

@@ -4,7 +4,7 @@ func _ready():
 	# Set the initial speed of the ball
 	var speed = 600
 	# Set the initial direction of the ball to a random angle
-	var direction = Vector2.DOWN.rotated(randf_range(0, 2 * PI))
+	var direction = Vector2.DOWN.rotated(randf_range(PI/3, PI/4))
 	# Set the initial velocity of the ball by multiplying the speed and direction
 	velocity = speed * direction
 		

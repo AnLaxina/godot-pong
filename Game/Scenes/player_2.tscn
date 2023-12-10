@@ -6,7 +6,9 @@
 size = Vector2(24, 216)
 
 [node name="Player2" type="CharacterBody2D"]
+scale = Vector2(0.7, 0.7)
 script = ExtResource("1_3qnsa")
+paddle_speed = 475
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -8.0
