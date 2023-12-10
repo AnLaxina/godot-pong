@@ -40,5 +40,22 @@ theme_override_fonts/font = ExtResource("1_gmr50")
 theme_override_font_sizes/font_size = 30
 text = "Exit"
 
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 62.0
+offset_right = 274.0
+offset_bottom = 206.0
+theme_override_fonts/font = ExtResource("1_gmr50")
+theme_override_font_sizes/font_size = 14
+text = "Keyboard Controls
+
+Player 1 (Left):
+W,S (Move up, down)
+
+Player 2 (Right):
+Arrow Keys (Move up, down)"
+horizontal_alignment = 1
+
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
